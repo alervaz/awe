@@ -67,7 +67,7 @@ func InitializeCli(app *App) {
 
 		}
 		if len(app.Commands) > 0 {
-			fmt.Println("Commands: Cmds")
+			fmt.Println("Commands: ")
 		}
 		for _, cmd := range app.Commands {
 			if cmd.Cmd == "" {
